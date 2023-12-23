@@ -15,6 +15,22 @@ html{
     font-size: 25px;
 }
 
+
+@font-face {
+    font-family: "sf-pro";
+    src: url(../fonts/SFPRODISPLAYREGULAR.OTF);
+  }
+  
+  @font-face {
+    font-family: "sf-pro-bold";
+    src: url(../fonts/SFPRODISPLAYBOLD.OTF);
+  }
+  
+  @font-face {
+    font-family: "sf-pro-bold-italic";
+    src: url(../fonts/SFPRODISPLAYBLACKITALIC.OTF);
+  }
+
 .detail-1{
     color: rgba(255, 255, 255, 0.589);
     font-family: 'Borel', cursive;
@@ -673,7 +689,7 @@ a:link{
         margin-left: auto;
         margin-right: auto;
         margin-top: 0px;
-        padding-top: 160px;
+        padding-top: 250px;
     }
     
     .nav-button{
@@ -682,7 +698,7 @@ a:link{
         height: auto;
         border-radius: 100px;
         text-align: center;
-        margin-top: -70px;
+        margin-top: -150px;
         transition: 0.40s;
     }
     
